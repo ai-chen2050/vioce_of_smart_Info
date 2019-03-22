@@ -2,6 +2,9 @@
 [Dd]esktop.ini
 Thumbs.db
 $RECYCLE.BIN/
+.vscode
+typings
+jsconfig.json
 
 # macOS
 .DS_Store
