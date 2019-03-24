@@ -1,1 +1,54 @@
-<view class="intro">欢迎使用代码片段，可在控制台查看代码片段的说明和文档</view>
+<import src="../common/head.wxml" />
+
+<view class="container">
+    <template is="head" data="{{title: 'Contact Me'}}"></template>
+
+    <view class="page-body">
+        <text class="page-body-text">微信公众号: </text>
+        <text class="page-body-text-1"> Fire布莱克 \n</text>
+        <text class="page-body-text">微头条: </text>
+        <text class="page-body-text-2"> Blake自由之音 \n</text>
+        <text class="page-body-text">CSDN: </text>
+        <text class="page-body-text-2">blog.csdn.net/smilejiasmile \n</text>        
+        <!-- <rich-text nodes="{{weChatIndex}}"></rich-text> -->
+    </view>
+
+    <template is="head" data="{{title: 'QRCode'}}"></template>
+    <view class="page-section-ctn">
+    <image class="image-1" src="../../image/wechat_1.gif" />
+    </view>
+    <!-- <view style='margin-top:10rpx'> ddd</view> -->
+
+    <attention
+        attention_type="weichat"
+        scenes_value="{{scenes_value}}"
+        attention_btn="Click here"
+        attention_content="We Chat about anything"
+        attention_name="WeChat Bot"
+    >
+    </attention>
+
+    <!-- <view style='margin:40rpx'>保存公众号二维码图片关注</view> -->
+    <attention 
+    gzclass="gzclassw"
+    attention_type="zhima"
+    dialog_type="1"
+    scenes_value="1011"
+    attention_btn="Click here"
+    attention_content="保存公众号二维码图片关注"
+    attention_name="Fire布莱克"
+    >
+</attention>
+
+    <!-- <view style='margin:40rpx'>复制公众号名称关注</view> -->
+    <attention 
+    attention_type="zhima"
+    dialog_type="3"
+    scenes_value="1011"
+    attention_btn="Click here"
+    attention_content="复制公众号名称关注"
+    attention_name="Fire布莱克"
+    >
+    </attention>
+
+</view>

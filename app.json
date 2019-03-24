@@ -26,7 +26,7 @@
         "pagePath": "pages/AIGo/AIGo",
         "iconPath": "image/icon_AIGo1.png",
         "selectedIconPath": "image/icon_AIGo.png",
-        "text": "机器学习"
+        "text": "世界" 
       },
       {
         "pagePath": "pages/index/index",
