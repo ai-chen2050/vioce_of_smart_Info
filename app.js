@@ -2,20 +2,46 @@ App({
   
     // 小程序初始化完成后，会全局触发一次
     onLaunch: function () {
-        var that = this;
+        if (!wx.saveImageToPhotosAlbum) {  
+          wx.showModal({  
+            title: '提示',  
+            content: '当前微信版本过低，无法使用该功能，请升级到最新微信版本后重试。'  
+          })  
+          return;  
+        }  
         wx.getSetting({
             success(res) {
               if (!res.authSetting['scope.writePhotosAlbum']) {
+                console.log("onLaunch one");
                 wx.authorize({
                   scope: 'scope.writePhotosAlbum',
                   success() {
                     console.log('scope.weitePhotosAlbum is success')
                     
-                }
+                },
+                fail(){  
+                  // 用户拒绝了授权  
+                  console.log("2-授权《保存图片》权限失败");  
+                  // 打开设置页面  
+                  wx.showModal({  
+                    title: '提示',  
+                    content: '请打开保存到手机相册的权限',  
+                    success: function(res){
+                      wx.openSetting({  
+                        success: function(data) {  
+                          console.log("openSetting: success");  
+                        },  
+                        fail: function(data) {  
+                          console.log("openSetting: fail");  
+                        }  
+                      });  
+                    }
+                  })
+                }  
                 })
               }
             }, 
-            fail: function (res) {
+            fail: function () {
                 console.log('scope.weitePhotosAlbum is fail')
           }
         })

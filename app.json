@@ -9,7 +9,7 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Blake智讯之声",
     "navigationBarTextStyle": "black",
-    "backgroudColor": "#F8F8F8"
+    "backgroundColor": "#F8F8F8"
   },
   "tabBar": {
     "color": "#7A7E83",
