@@ -22,7 +22,7 @@ Component({
     },
     attention_btn: {
       type: String,
-      value: "关注"
+      value: "Click here"
     },
     attention_type: {
       type: String,
@@ -88,7 +88,6 @@ Component({
             fail: function (res) {
               console.log(res);
             }
-
           })
         },
         fail: function (res) {

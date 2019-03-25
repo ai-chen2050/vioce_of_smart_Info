@@ -1,2 +1,6 @@
 <!--pages/ecoArticle/ecoDoc.wxml-->
-<text>pages/ecoArticle/ecoDoc.wxml</text>
+<!-- <text>pages/ecoArticle/ecoDoc.wxml</text> -->
+
+<!--引入towxml模版入口文件，并使用模版-->
+<import src="/towxml/entry.wxml"/>
+<template is="entry" data="{{...article}}"/>   // 三个小数点一定要带上

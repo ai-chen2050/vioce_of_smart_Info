@@ -1,1 +1,4 @@
 /* pages/ecoArticle/ecoDoc.wxss */
+
+/**基础风格样式**/
+@import '/towxml/style/main.wxss';
