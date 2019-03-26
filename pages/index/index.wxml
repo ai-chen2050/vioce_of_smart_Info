@@ -15,7 +15,7 @@
 
     <template is="head" data="{{title: 'QRCode'}}"></template>
     <view class="page-section-ctn">
-    <image class="image-1" src="../../image/wechat_1.gif" />
+    <image class="image-1" src="../../image/QRcode.jpg" />
     </view>
     <!-- <view style='margin-top:10rpx'> ddd</view> -->
 
