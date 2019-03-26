@@ -97,21 +97,28 @@ page {
     font-size: 34rpx;
     line-height: 26px;
     margin-left: 20px;
-    color: rgb(46, 179, 184);
+    color: rgb(42, 169, 173);
   }
 
   .page-body-text-1 {
     font-size: 34rpx;
     line-height: 26px;
     margin-left: 10px;
-    color: #776060;
+    color: #584848;
   }
 
   .page-body-text-2 {
     font-size: 34rpx;
     line-height: 26px;
     margin-left: 35px;
-    color: #776060;
+    color: #584848;
+  }
+
+  .page-body-text-3 {
+    font-size: 34rpx;
+    line-height: 26px;
+    margin-left: 35px;
+    color: #584848;
   }
 
   .page-body-text-no {
@@ -218,10 +225,11 @@ page {
     position: relative;
     align-items: center;
     justify-content: center;
-    background-color: #1AAD19;
-    color: #FFFFFF;
+    /* background-color: #1AAD19; */
+    color: rgb(168, 44, 206);
     font-size: 36rpx;
   }
+
   .demo-text-1:before{
     content: 'A';
     position: absolute;
@@ -233,8 +241,8 @@ page {
     position: relative;
     align-items: center;
     justify-content: center;
-    background-color: #2782D7;
-    color: #FFFFFF;
+    /* background-color: #2782D7; */
+    color: rgb(168, 44, 206);
     font-size: 36rpx;
   }
   .demo-text-2:before{
@@ -248,8 +256,8 @@ page {
     position: relative;
     align-items: center;
     justify-content: center;
-    background-color: #F1F1F1;
-    color: #353535;
+    /* background-color: #F1F1F1; */
+    color: rgb(168, 44, 206);
     font-size: 36rpx;
   }
   .demo-text-3:before{

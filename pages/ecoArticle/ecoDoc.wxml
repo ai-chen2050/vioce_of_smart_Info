@@ -1,6 +1,32 @@
 <!--pages/ecoArticle/ecoDoc.wxml-->
-<!-- <text>pages/ecoArticle/ecoDoc.wxml</text> -->
 
-<!--引入towxml模版入口文件，并使用模版-->
-<import src="/towxml/entry.wxml"/>
-<template is="entry" data="{{...article}}"/>   // 三个小数点一定要带上
+<import src="../common/head.wxml" />
+<import src="../common/foot.wxml" />
+
+<view class="container">
+    <template is="head" data = "{{ title: 'OnePage'}}"/>
+
+    <view class="page-body">
+        <view class="page-section page-section-spacing swiper">
+            <swiper indicator-dots="{{indicatorDots}}"
+                autoplay = "{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+                <block wx:for="{{imgUrls}}" wx:key= "*this">
+                    <swiper-item>
+                        <!-- <view class="swiper-item {{item}}"></view> -->
+                        <image src="{{item}}" class="slide-image" mode="widthFix" bindload='imgHeight'/>
+                    </swiper-item>
+                </block>
+            </swiper>
+        </view>
+    </view> 
+
+    <view class="page-body">
+        <text class="page-body-text">愿景: </text>
+        <text class="page-body-text-3"> 共建知识社区 \n</text>
+        <text class="page-body-text">内容: </text>
+        <text class="page-body-text-3"> 技术、生活、知识、医疗、文娱\n</text>
+        <text class="page-body-text">阶段: </text>
+        <text class="page-body-text-3">初始启动阶段 \n</text>        
+        <!-- <rich-text nodes="{{weChatIndex}}"></rich-text> -->
+    </view>
+</view>

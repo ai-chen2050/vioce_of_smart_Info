@@ -1,39 +1,54 @@
 // pages/ecoArticle/ecoDoc.js
+const app = getApp()
+
 Page({
+
+  onShareAppMessage(){
+    return {
+      title: 'OnePage',
+      path: 'pages/AIGo/AIGo'
+    }
+  },
 
   /**
    * 页面的初始数据
    */
+  
   data: {
+    background: ['demo-text-1', 'demo-text-2', 'demo-text-3'],
+    imgUrls: [          
+      '../../image/one.gif',
+      '../../image/two.gif',
+      '../../image/three.gif'
+    ],
+    indicatorDots: true,
+    vertical: false,
+    autoplay: true,
+    interval: 2000,
+    duration: 500,
+    Height: ""
+  },
 
+  /**
+   * 
+   * 设置图片的高度 
+   */
+
+  imgHeight:function(e){
+    var winWid = wx.getSystemInfoSync().windowWidth; //获取当前屏幕的宽度
+    var imgh=e.detail.height;//图片高度
+    var imgw=e.detail.width;//图片宽度
+    var swiperH=winWid*imgh/imgw + "px"//等比设置swiper的高度。 即 屏幕宽度 / swiper高度 = 图片宽度 / 图片高度  ==》swiper高度 = 屏幕宽度 * 图片高度 / 图片宽度
+    this.setData({
+      Height:swiperH//设置高度
+    })
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
-      // 获取帮助手册列表
-      wx.request({
-          url: globalUrl + '/wxapp/client_helper_list',
-          success(res) {
-              console.log(res.data)
-              // 获取到的数据 必须是字符串格式res.data.data[0].Content
-              let data = app.towxml.toJson(res.data.data[0].Content, 'markdown')
-              //设置文档显示主题，背景颜色，默认'light'
-              data.theme = 'dark';  
-              console.log(data, 6666666666)
-
-              self_.setData({
-                  helper_obj_list: res.data.data,
-                  article: data
-              })
-          },
-          fail: function (res) {
-
-          }
-
-      })
+    
 
   },
 

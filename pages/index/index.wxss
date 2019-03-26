@@ -32,8 +32,8 @@
   .image-1 {
     margin-top: 0rpx; 
     margin-bottom: 40rpx;
-    width: 600rpx;
-    height: 400rpx;
+    width: 500rpx;
+    height: 500rpx;
   }
 
   .gzclassw{

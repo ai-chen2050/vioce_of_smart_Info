@@ -14,6 +14,14 @@ const weChatIndex =
 `
 
 Page({
+
+  onShareAppMessage(){
+    return {
+      title: 'Contact Me',
+      path: 'pages/AIGo/AIGo'
+    }
+  },
+
   data: {
       htmlSnip,
       weChatIndex,
