@@ -121,6 +121,13 @@ page {
     color: #584848;
   }
 
+  .page-body-text-4 {
+    font-size: 34rpx;
+    line-height: 26px;
+    margin-left: 88px;
+    color: #584848;
+  }
+
   .page-body-text-no {
     font-size: 34rpx;
     line-height: 26px;
@@ -181,6 +188,15 @@ page {
 
   } */
   
+  .btn-plus{
+    margin-top: 60rpx;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 30rpx;
+    color: #41b341;
+    border-radius: 0;
+  }
+
   /* widget */
   .btn-area{
     margin-top: 60rpx;

@@ -24,9 +24,16 @@
         <text class="page-body-text">愿景: </text>
         <text class="page-body-text-3"> 共建知识社区 \n</text>
         <text class="page-body-text">内容: </text>
-        <text class="page-body-text-3"> 技术、生活、知识、医疗、文娱\n</text>
+        <text class="page-body-text-3"> 生活、技术、财商、医疗、文娱\n</text>
         <text class="page-body-text">阶段: </text>
         <text class="page-body-text-3">初始启动阶段 \n</text>        
+        <text class="page-body-text">规范: </text>
+        <text class="page-body-text-3">朋友圈之间的知识共享、任何您觉得\n</text>        
+        <text class="page-body-text-4">有价值的 anything \n</text>        
+        <!-- <text class="page-body-text-1">\n Plus:投稿请联系 ai-chen2050,\n 或后续社区会建立网站供上传资讯或价值信息\n </text>        -->
         <!-- <rich-text nodes="{{weChatIndex}}"></rich-text> -->
+        <view class="btn-area">
+            <button class="btn-plus" bindtap="modalTap">Plus one more info</button>
+        </view>
     </view>
 </view>

@@ -1,8 +1,23 @@
 {
   "pages": [
-    "pages/index/index",
     "pages/ecoArticle/ecoDoc",
-    "pages/AIGo/AIGo"
+    "pages/index/index",
+    "pages/AIGo/AIGo",
+    "pages/worldPeg/other/other",
+    "pages/worldPeg/basicAIGo/basicAIGo",
+    "pages/worldPeg/list/list",
+    "pages/worldPeg/tree/tree",
+    "pages/worldPeg/string/string",
+    "pages/worldPeg/tensor-1/tensor-1",
+    "pages/worldPeg/tensor-2/tensor-2",
+    "pages/worldPeg/tensor-3/tensor-3",
+    "pages/worldPeg/tensor-4/tensor-4",
+    "pages/worldPeg/block-1/block-1",
+    "pages/worldPeg/block-2/block-2",
+    "pages/worldPeg/finan-1/finan-1",
+    "pages/worldPeg/finan-2/finan-2",
+    "pages/worldPeg/heal-1/heal-1",
+    "pages/worldPeg/feel-1/feel-1"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -26,7 +41,7 @@
         "pagePath": "pages/AIGo/AIGo",
         "iconPath": "image/icon_AIGo1.png",
         "selectedIconPath": "image/icon_AIGo.png",
-        "text": "世界" 
+        "text": "世界"
       },
       {
         "pagePath": "pages/index/index",
@@ -43,9 +58,8 @@
     "downloadFile": 10000
   },
   "permission": {
-    "scope.userLocation":{
+    "scope.userLocation": {
       "desc": "你的位置信息将用于小程序位置接口的效果展示"
     }
   }
-
 }

@@ -6,7 +6,7 @@ Page({
   onShareAppMessage(){
     return {
       title: 'OnePage',
-      path: 'pages/AIGo/AIGo'
+      path: 'pages/ecoArticle/ecoArticle'
     }
   },
 
@@ -43,6 +43,19 @@ Page({
       Height:swiperH//设置高度
     })
   },
+
+  /**
+   * 
+   * plus Info
+   */
+    modalTap() {
+        wx.showModal({
+        title: 'One more',
+        content: '投稿请联系 ai-chen2050, 或后续社区会建立网站供上传资讯或价值信息',
+        showCancel: false,
+        confirmText: '确定'
+        })
+    },
 
   /**
    * 生命周期函数--监听页面加载
