@@ -1,1 +1,9 @@
 /* pages/worldPeg/basicAIGo/basicAIGo.wxss */
+/* @import "./out.wxss"; */
+
+.page-content {
+    width: auto;
+    margin: 30rpx 0;
+    padding: 0 50rpx;
+  }
+  

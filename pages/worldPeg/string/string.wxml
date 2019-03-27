@@ -1,2 +1,6 @@
 <!--pages/worldPeg/string/string.wxml-->
-<text>pages/worldPeg/string/string.wxml</text>
+<view class="container">
+        <view class="page-content">
+            <image src="../../image/string.jpg" class="slide-image" mode="widthFix" bindload='imgHeight'></image>
+        </view>
+</view>

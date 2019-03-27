@@ -1,4 +1,4 @@
-// pages/worldPeg/tensor-1/tensor-1.js
+// pages/worldPeg/tensor-5/tensor-5.js
 Page({
 
   /**

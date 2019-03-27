@@ -1,2 +1,6 @@
 <!--pages/worldPeg/tree/tree.wxml-->
-<text>pages/worldPeg/tree/tree.wxml</text>
+<view class="container">
+        <view class="page-content">
+            <image src="../../image/tree.jpg" class="slide-image" mode="widthFix" bindload='imgHeight'></image>
+        </view>
+</view>

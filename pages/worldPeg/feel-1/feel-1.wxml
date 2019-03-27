@@ -1,2 +1,6 @@
 <!--pages/worldPeg/feel-1/feel-1.wxml-->
-<text>pages/worldPeg/feel-1/feel-1.wxml</text>
+<view class="container">
+        <view class="page-content">
+            <image src="../../image/feel-1.jpg" class="slide-image" mode="widthFix" bindload='imgHeight'></image>
+        </view>
+</view>

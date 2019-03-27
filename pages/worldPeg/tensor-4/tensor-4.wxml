@@ -1,2 +1,6 @@
 <!--pages/worldPeg/tensor-4/tensor-4.wxml-->
-<text>pages/worldPeg/tensor-4/tensor-4.wxml</text>
+<view class="container">
+        <view class="page-content">
+            <image src="../../image/tensor-4.jpg" class="slide-image" mode="widthFix" bindload='imgHeight'></image>
+        </view>
+</view>

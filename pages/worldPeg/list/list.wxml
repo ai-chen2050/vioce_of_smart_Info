@@ -1,2 +1,9 @@
 <!--pages/worldPeg/list/list.wxml-->
-<text>pages/worldPeg/list/list.wxml</text>
+<import scr= "../../common/head.wxml" />
+<import scr= "../../common/foot.wxml" />
+
+<view class="container">
+    <view class="page-content">
+        <image src="../../image/list.jpg" class="slide-image" mode="widthFix" bindload='imgHeight'></image>
+    </view>
+</view>

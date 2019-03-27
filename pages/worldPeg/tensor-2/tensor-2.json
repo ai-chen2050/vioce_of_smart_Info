@@ -1,3 +1,4 @@
 {
-  "usingComponents": {}
+  "usingComponents": {},
+  "navigationBarTitleText": "前向神经网络和 BP 算法详解之DNN"
 }

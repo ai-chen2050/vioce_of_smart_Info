@@ -15,7 +15,7 @@ Page({
           id: 'machine',
           name: '机器学习-深度学习',
           open: false,
-          pages: { '基于 TensorFlow 的逻辑回归详解': 'tensor-1','前向神经网络和 BP 算法详解之DNN':'tensor-2','卷积神经网络(CNN)及其实践':'tensor-3','使用 VGG16 实现图像识别分类，使用 VGG 19 实现艺术风格转移':'tensor-3','基于循环神经网络(LSTM)的情感评论文本分类': 'tensor-4'}
+          pages: { '基于 TensorFlow 的逻辑回归详解': 'tensor-1','前向神经网络和 BP 算法详解之DNN':'tensor-2','卷积神经网络(CNN)及其实践':'tensor-3','使用 VGG16 实现图像识别分类，使用 VGG 19 实现艺术风格转移':'tensor-4','基于循环神经网络(LSTM)的情感评论文本分类': 'tensor-5'}
         }, {
           id: 'blockchain',
           name: '区块链',

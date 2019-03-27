@@ -17,7 +17,8 @@
     "pages/worldPeg/finan-1/finan-1",
     "pages/worldPeg/finan-2/finan-2",
     "pages/worldPeg/heal-1/heal-1",
-    "pages/worldPeg/feel-1/feel-1"
+    "pages/worldPeg/feel-1/feel-1",
+    "pages/worldPeg/tensor-5/tensor-5"
   ],
   "window": {
     "backgroundTextStyle": "light",

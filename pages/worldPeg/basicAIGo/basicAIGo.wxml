@@ -1,2 +1,10 @@
 <!--pages/worldPeg/basicAIGo/basicAIGo.wxml-->
-<text>pages/worldPeg/basicAIGo/basicAIGo.wxml</text>
+<!-- <text>pages/worldPeg/basicAIGo/basicAIGo.wxml</text> -->
+<import scr= "../../common/head.wxml" />
+<import scr= "../../common/foot.wxml" />
+
+<view class="container">
+    <view class="page-content">
+        <image src="../../image/basicAIGo.jpg" class="slide-image" mode="widthFix" bindload='imgHeight'></image>
+    </view>
+</view>
