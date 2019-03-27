@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "attention": "../components/attention/attention"
+  },
   "navigationBarTitleText": "使用 VGG16 实现图像识别分类，使用 VGG 19 实现艺术风格转移"
 }

@@ -1,11 +1,14 @@
 // pages/worldPeg/tensor-2/tensor-2.js
+const app = getApp()
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    Height: ""
+    Height: "",
+    scenes_value: app.globalData.scene
   },
 
   /**

@@ -51,4 +51,11 @@
     >
     </attention>
 
+    <text> \n </text>
+    <view class="page-section-ctn-1">
+        <navigator url="../worldPeg/{{page.url}}" class="navigator" >
+            <view class="navigator-text-1">{{page.zh}}</view>
+            <view class="navigator-arrow"></view>
+        </navigator>
+    </view>
 </view>

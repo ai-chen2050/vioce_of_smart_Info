@@ -3,4 +3,16 @@
         <view class="page-content">
             <image src="../../image/tensor-3.jpg" class="slide-image" mode="widthFix" bindload='imgHeight'></image>
         </view>
+
+        <text> \n </text>
+        <attention 
+        attention_type="zhima"
+        dialog_type="3"
+        scenes_value="1011"
+        attention_btn="Click here"
+        attention_content="复制原文地址至浏览器学习"
+        attention_name="https://blog.csdn.net/smilejiasmile/article/details/80752889"
+        >
+        </attention>
+        
 </view>

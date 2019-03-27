@@ -3,4 +3,16 @@
         <view class="page-content">
             <image src="../../image/feel-1.jpg" class="slide-image" mode="widthFix" bindload='imgHeight'></image>
         </view>
+
+        <text> \n </text>
+        <attention 
+        attention_type="zhima"
+        dialog_type="3"
+        scenes_value="1011"
+        attention_btn="Click here"
+        attention_content="复制后微信直接搜索"
+        attention_name="https://mp.weixin.qq.com/s/yfigyZt_vrQEX3cqrUTUeQ"
+        >
+        </attention>
 </view>
+

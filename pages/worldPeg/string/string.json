@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "attention": "../components/attention/attention"
+  },
   "navigationBarTitleText": "字符串"
 }

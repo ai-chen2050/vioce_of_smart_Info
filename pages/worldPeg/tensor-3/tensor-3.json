@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "attention": "../components/attention/attention"
+  },
   "navigationBarTitleText": "卷积神经网络(CNN)及其实践"
 }

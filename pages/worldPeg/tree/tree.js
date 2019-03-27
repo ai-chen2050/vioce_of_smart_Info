@@ -1,11 +1,14 @@
 // pages/worldPeg/tree/tree.js
+const app = getApp();
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    Height: ""
+    Height: "",
+    scenes_value: app.globalData.scene
   },
 
   /**

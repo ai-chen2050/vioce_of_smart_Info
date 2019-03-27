@@ -124,7 +124,7 @@ page {
   .page-body-text-4 {
     font-size: 34rpx;
     line-height: 26px;
-    margin-left: 88px;
+    margin-left: 94px;
     color: #584848;
   }
 

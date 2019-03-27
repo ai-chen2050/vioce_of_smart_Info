@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "attention": "../components/attention/attention"
+  },
   "navigationBarTitleText": "基于 TensorFlow 的逻辑回归详解"
 }

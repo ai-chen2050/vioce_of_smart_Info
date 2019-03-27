@@ -25,7 +25,11 @@ Page({
   data: {
       htmlSnip,
       weChatIndex,
-      scenes_value: app.globalData.scene
+      scenes_value: app.globalData.scene,
+      page : {
+        zh: '设    置',
+        url: 'setting/setting'
+      }
   },
 
   onLoad: function () {

@@ -6,7 +6,7 @@ Component({
   properties: {
     attention_name: {
       type: String,
-      value: "芝麻小客服"
+      value: ""
     },
     attention_content: {
       type: String,
@@ -14,11 +14,11 @@ Component({
     },
     attention_logo: {
       type: String,
-      value: "../../../image/pica.png"
+      value: "../../../../image/facePic.jpg"
     },
     attention_img: {
       type: String,
-      value: "../../../image/QRcode.jpg"
+      value: "../../../../image/QRcode.jpg"
     },
     attention_btn: {
       type: String,
