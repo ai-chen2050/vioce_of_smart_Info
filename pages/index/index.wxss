@@ -30,6 +30,13 @@
     background: #41b341
   }
 
+  .page-section-ctn-2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: medium;
+    background: #41b341
+  }
+
   .image {
     margin-top: 30rpx;
     width: 600rpx;
@@ -89,6 +96,13 @@
     color: black;
     flex: 1;
   }
+
+  .navigator-text-2 {
+    margin-top: 30rpx;
+    color: black;
+    flex: 1;
+  }
+
   .navigator-arrow {
     padding-right: 26rpx;
     position: relative;

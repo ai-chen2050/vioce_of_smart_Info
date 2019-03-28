@@ -128,6 +128,14 @@ page {
     color: #584848;
   }
 
+  .page-body-text-5 {
+    font-size: 34rpx;
+    line-height: 26px;
+    margin-left: 20px;
+    font-style: italic;
+    color: #9e8989;
+  }
+
   .page-body-text-no {
     font-size: 34rpx;
     line-height: 26px;

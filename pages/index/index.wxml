@@ -58,4 +58,8 @@
             <view class="navigator-arrow"></view>
         </navigator>
     </view>
+
+    
+    <text class="page-body-text-5">\n项目开源(欢迎 pr):https://github.com/ai-chen2050/vioce_of_smart_Info</text>
+    
 </view>
