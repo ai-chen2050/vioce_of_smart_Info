@@ -129,10 +129,12 @@ page {
   }
 
   .page-body-text-5 {
-    font-size: 34rpx;
+    font-size: 24rpx;
     line-height: 26px;
     margin-left: 20px;
+    margin-top: 10px;
     font-style: italic;
+    font-weight: bold;
     color: #9e8989;
   }
 
