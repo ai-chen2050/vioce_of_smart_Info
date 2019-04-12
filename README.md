@@ -11,14 +11,19 @@ WeChat app for the  smart information
 
 ## The Project Shape is as follows
 
-- OnePage
+--- 
+- **OnePage**
+
 
 ![one](./image/show1.gif)
 
-- MainPage
+--- 
+- **MainPage**
+
 
 ![two](./image/show2.png)
 
-- ContactMe
+---
+- **ContactMe**
 
 ![three](./image/show3.gif)
