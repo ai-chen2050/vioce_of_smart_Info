@@ -2,14 +2,14 @@
 
 WeChat app for the  smart information
 
-# Skill 
+## Skill 
 
 - javaScript
 - css 
 - html
 
 
-# The Project Shape is as follows
+## The Project Shape is as follows
 
 ![one](./image/show1.gif)
 
